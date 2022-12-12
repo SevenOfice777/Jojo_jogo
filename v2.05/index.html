@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Seven Mugen | O jogo</title>
+</head>
+<body>
+    
+    <div class="fundo">
+        <button class="inciar" onclick="clicou()">Iniciar Game</button>
+    </div>
+    
+    <div class="container">
+        <!-- <div class="chao"></div> -->
+
+        <img src="../personagens/assets/kratos.gif" class="kratos">
+        <img src="../personagens/assets/kamehameha.gif" class="kameha">
+        <!-- Hero Object -->
+        <img src="../personagens/atirador/parado.png" class="hero">
+        <!-- vilainn Object -->
+        <img src="../personagens/boss/boss_motossera.avif" class="boss">
+        <!-- <img src="../personagens/clouds.gif" class="clouds"> -->
+        <img src="../personagens/assets/missil.png" class="missil">
+        <!-- fire -->
+        <img src="../personagens/assets/dragon.webp" class="dragon">
+        <img src="../personagens/assets/passou.png" class="passou">
+
+        
+    </div>
+    <img src="../personagens/assets/all.gif" class="all">
+    <img src="../personagens/assets/vidro_quebrado.png" class="all">
+
+    <div class="tutorial_or_game">
+        
+        <div class="card_tutorial">
+            <ul>
+                <li>
+                    <H1>TUTORIAL</H1>
+                </li>
+                <li>
+                    <p>A => Andar pra tras</p>
+                </li>
+                <li>
+                    <p>D => Andar pra frente</p>
+                </li>
+                <li>
+                    <p> ⬅️ Soltar um combo de um missil</p>
+                </li>
+                <li>
+                    <p> ➡️ Soltar um combo de um meteoro </p>
+                </li>
+                <li>
+                    <p> ⬆️ Soltar um combo do naruto ajudando o goku </p>
+                </li>
+                <li>
+                    <p> ⬇️ Soltar um combo de um  deus da guerra</p>
+                </li>
+            </ul>
+            <button onclick="fecharTutorial()">Fechar Tutorial</button>
+           
+        </div>
+        
+    </div>
+
+
+    <script src="brain.js"></script>
+</body>
+</html>
