@@ -26,9 +26,7 @@ const kamehame = document.querySelector(".kameha")
 var x = 20;
 var y = 70;
 
-boss.onclick = function () {
-    som_de_motoserra.play();
-}
+
 
 function fecharTutorial() {
     tutorial.style.display = 'none';
@@ -248,9 +246,7 @@ function voltarInicio() {
                 boss.src = 'file:///F:/BACKUP/Jojo%20Bizarras%20Aventuras/personagens/boss/boss_motossera.avif';
                 boss.style.width = '250px'
     }
-    som_smash.currentTime = 0;
-
-
+    
 }
 
 // Evento de KeyUp() Soltou a tecla
