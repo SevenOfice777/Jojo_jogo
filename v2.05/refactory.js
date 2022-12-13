@@ -45,3 +45,11 @@ function voltarInicio() {
      }
 }
 
+// Eventos de KeyDown
+
+body.addEventListener('keydown', function(e) {
+     if(e.key === ' ') {
+          
+     }
+
+});
