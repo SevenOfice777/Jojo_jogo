@@ -9,7 +9,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-image: url(../themes/fundo_montanha.jpg);
     background-position: center;
     background-size:cover;
@@ -167,13 +167,13 @@ button:hover {
 
 .tutorial_or_game{
     width: 500px;
-    height: 350px;
+    height: 450px;
     border-radius:5px ;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 30px;
     background-color: rgba(82, 186, 255, 0.61);
     display: none;
 
@@ -190,12 +190,12 @@ ul {
 }
 
 li {
-    margin: 10px;
+    margin: 20px;
 }
 
 .tutorial_or_game button {
     position: relative;
-    bottom: -80px;
+    bottom: -40px;
     right: 0;
     
 }
